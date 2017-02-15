@@ -1,12 +1,8 @@
-<!-- view template -->
-<!-- called from your routes in server.js -->
-<!-- templating docs: http://mozilla.github.io/nunjucks/ -->
-
 <!DOCTYPE html>
 <html>
   <head>
     <title>{{title}}</title>
-    <meta name="description" content="A cool thing made with HyperDev">
+    <meta name="description" content="A cool thing made with MongoDB">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -66,18 +62,8 @@
       {% endfor %}
     </main>
     
-    <footer>
-      <p>
-        <a href="https://gomix.com/#!/remix/mongodb-sync/732e6975-8c3a-44eb-8ac4-7932fd25440d">
-          <img src="https://gomix.com/images/background-light/remix-on-gomix.svg">
-        </a>
-      </p>
-      <p>
-        <a href="https://gomix.com/#!/project/mongodb-sync">
-          View Code
-        </a>
-      </p>
-    </footer>  
+    <footer id="gWidget"></footer>
+    <script src="https://widget.gomix.me/widget.min.js"></script>
     
   </body>
 </html>
