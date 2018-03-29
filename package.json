@@ -10,9 +10,10 @@
     "express": "*",
     "body-parser": "*",
     "nunjucks": "^1.3.4",
-    "mongodb": "*",
+    "mongodb": "2.x",
     "synchronize": "^0.9.14"
   },
+  "engines": { "node": "6.x" },
   "keywords": [
     "node",
     "express"
