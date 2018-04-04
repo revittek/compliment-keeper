@@ -92,9 +92,9 @@ function initializeDatastoreOnProjectCreation() {
 
 var initialPosts = [
   {
-    body: "Among other things, you could make a pretty sweet blog."
+    body: "I'm cute"
   },
   {
-    body: "Today I saw a double rainbow. It was pretty neat."
+    body: "I'm nice"
   }
 ];
