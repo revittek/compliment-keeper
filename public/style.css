@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Questrial|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Questrial');
 * {
         margin: 10px;
         padding: 0;
@@ -16,16 +16,25 @@ h1 {
         font-family: Shrikhand, cursive;
         font-size: 40px;
 }
+div.past {
+        margin-top: 40px; 
+}
+.past h2 {
+        font-weight: normal; 
+        font-family: Shrikhand, cursive;
+        font-size: 28px;
+}
 outer {
         background-color: #e9ffff;
-        border: 3px solid #f0fafa;
-        border-radius: 3px;
+        border: 4px solid #f0fafa;
+        border-radius: 9px;
 }
 input[type=text] {
-        min-width: 300px;
+        min-width: 440px;
         font-size: 28px;
         flex-grow: 1;
         flex-shrink: 1;
+        padding: 8px;
 }
 ul {
         list-style: none;
@@ -66,6 +75,13 @@ header {
         }
         header h2 {
                 margin-bottom: 15px;
+        }
+        input[type=text] {
+                min-width: 200px;
+                font-size: 28px;
+                flex-grow: 1;
+                flex-shrink: 1;
+                padding: 8px;
         }
 }
 
