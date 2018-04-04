@@ -20,20 +20,17 @@
 
     <section class="add-new-post">
       <form action="/posts" method="post">
-        <label>
           <h3>
             Enter it here
           </h3>
           <input type="text" name="body" placeholder="A compliment!!" />
-          
-        </label>
         <button type="submit" class="button"><h1>
           Save it.</h1>
         </button>
       </form>
       <nav>
-        <a href="/delete">Delete All Posts</a> 
-        <a href="/reset">Reset App</a>
+        <a href="/delete">Delete Last Compliment</a> 
+        <a href="/reset">Reset</a>
       </nav>
     </section>
 
@@ -53,8 +50,7 @@
         {% endblock %}
       {% endfor %}
     </main>
-    
-    <div class="button"></div>
+  
     
   </body>
 </html>

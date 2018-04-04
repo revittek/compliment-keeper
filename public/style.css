@@ -13,12 +13,14 @@ html {
 body {
         display: flex;
         flex-direction: column;
+        background-color: #E9FFFF;
 }
 input[type=text] {
         flex-basis: 400px;
+        font-size: 22px;
 }
 h1{
-        color: green;
+        color: grey;
 }
 ul {
         list-style: none;
@@ -37,7 +39,7 @@ a {
 a:hover {
         opacity: 1;
 }
-a.btn {
+button.btn {
         border-radius: 4px;
         text-transform: uppercase;
         text-align: center;
@@ -46,21 +48,11 @@ a.btn {
         opacity: 1;
 }
 header {
-        position: absolute;
         width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        padding: 5px 100px 0;
-        animation: 1s fadein 0.5s forwards;
-        opacity: 0;
-        color: #515151;
-        z-index: 100;
-}
-@keyframes fadein {
-        100%{
-                opacity: 1;
-        }
+        color: grey;
 }
 header nav {
         display: flex;

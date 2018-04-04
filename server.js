@@ -62,7 +62,9 @@ app.get("/reset", function (request, response) {
 
 app.get("/delete", function (request, response) {
   try {
-    datastore.set("posts", []);
+    var posts = datastore.get("posts");
+    posts.pop();
+    datastore.set("posts", posts);
     response.redirect("/");
   } catch (err) {
     handleError(err, response);
