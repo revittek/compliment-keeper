@@ -8,7 +8,7 @@
 html {
         font-family: Questrial;
         font-size: 16px;
-        color: #555;
+        color: #849687;
 }
 body {
         display: flex;
@@ -18,9 +18,6 @@ body {
 input[type=text] {
         flex-basis: 400px;
         font-size: 22px;
-}
-h1{
-        color: grey;
 }
 ul {
         list-style: none;
@@ -33,19 +30,17 @@ a {
         opacity: 0.75;
         color: #515151;
         cursor: pointer;
-        padding: 10px;
-        margin: 10px;
 }
 a:hover {
         opacity: 1;
 }
-button.btn {
+button {
         border-radius: 4px;
         text-transform: uppercase;
         text-align: center;
-        font-weight: bold;
-        background-color: #3f51b5;
-        opacity: 1;
+        font-size: 22px;
+        background-color: #96bddb;
+        padding: 5px;
 }
 header {
         width: 100%;
@@ -69,4 +64,18 @@ header nav li {
         header h2 {
                 margin-bottom: 15px;
         }
+}
+
+main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+
+article {
+        background-color: #f5f5f5;
+        font-size: 18px;
+        border-radius: 10px;
+        border: 2px solid #f9f0f0;
 }
